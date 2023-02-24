@@ -27,7 +27,15 @@ const Login = () => {
 
 	loginWithEmailProvider({
 		baseUrl: "http://localhost:8080/api/v1/auth/login",
-		fields: [{ name: "email", type: "text", placeholder: "Enter Your Email" }, { name: "password", type: "password", placeholder: "Enter Your Password" }]
+		fields: [{ 
+			name: "email", 
+			type: "text", 
+			placeholder: "Enter Your Email" 
+		}, { 
+			name: "password", 
+			type: "password", 
+			placeholder: "Enter Your Password" 
+		}]
 	})
 
 	return (
